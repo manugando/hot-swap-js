@@ -1,0 +1,17 @@
+{
+  "name": "hot-swap-js",
+  "description": "A small library to hot swap page content without reloading the entire page.",
+  "main": "hot-swap.js",
+  "authors": [
+    "manugando <emanuele.gandolfi89@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/manugando/hot-swap-js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
