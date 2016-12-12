@@ -46,12 +46,12 @@ function HotSwap(hotSwapStartCallback, executeContentSwapCallback) {
         return new Promise(function (resolve, reject) {
             var path = window.location.pathname + window.location.search;
             var request = new XMLHttpRequest();
-            request.responseType = 'document';
             request.onload = function(newPathRequestEvt) {
                 resolve(newPathRequestEvt);
             };
             request.onerror = reject;
             request.open('get', path);
+            request.responseType = 'document';
             request.send();
         });
     };
